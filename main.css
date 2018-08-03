@@ -1,0 +1,52 @@
+
+    button{
+      height:40px;
+      width:60px;
+      background-color: blue;
+      color: white;
+     }
+
+    .background{
+      background-repeat: "no-repeat";
+    }
+
+    .container{
+      display: grid;
+      width: 90%;
+      height: 400px;
+      margin: 10% auto;
+      grid-template: 100% / 30% 30% 30%;
+      grid-gap: 5%;
+     }
+
+     .container div{
+       border: 2px solid white;
+       border-radius: 20%;
+       background-color: rgb(102, 255, 153, .5);
+      }
+
+     h1{
+       font-size: 50px
+      }
+
+      #page2{
+      height: 400px;
+      width: 100%;
+      display: grid;
+      grid-template: 100% / 50% 50%;
+      border: 1px solid white;
+     }
+
+     #page2 div{
+     border: 1px solid white;
+    }
+
+     #pokemonOne{
+     color: white;
+    }
+
+    h2{
+    font-size: 40px
+   }
+
+    
